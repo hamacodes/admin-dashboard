@@ -14,14 +14,26 @@ body {
 }
 
 .sidebar {
+  display: grid;
+  grid-template-rows: 100px 2fr 1fr;
   background-color: lightblue;
   height: 100vh;
 }
 
+
 .header {
+  display: grid;
+  grid-template-rows: 2fr 3fr;
   background-color: lightgreen;
   height: 20vh;
 }
+.header-top {
+  background-color: aquamarine;
+}
+.header-bot {
+  background-color: green;
+}
+
 
 .main {
   background-color: aliceblue;

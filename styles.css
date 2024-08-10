@@ -7,3 +7,22 @@
 body {
   background-color: gray;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.sidebar {
+  background-color: lightblue;
+  height: 100vh;
+}
+
+.header {
+  background-color: green;
+  height: 10vh;
+}
+
+.main {
+  background-color: aliceblue;
+}

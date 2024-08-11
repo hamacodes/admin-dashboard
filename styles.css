@@ -53,6 +53,7 @@ body {
 }
 .nav p, .util p {
   font-size: 20px;
+  font-weight: bold;
 }
 
 /* Right side header and content */

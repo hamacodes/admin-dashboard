@@ -13,6 +13,7 @@ body {
   grid-template-columns: 20% 80%;
 }
 
+/* Left side bar section */
 .sidebar {
   display: grid;
   grid-template-rows: 100px 2fr 1fr;
@@ -20,10 +21,16 @@ body {
   height: 100vh;
 }
 
+/* Right side header and content */
+.main {
+  background-color: white;
+  border: 2px solid black;
+}
 
+/* Header Section */
 .header {
   display: grid;
-  grid-template-rows: 2fr 3fr;
+  grid-template-rows: 40% 60%;
   background-color: lightgreen;
   height: 20vh;
 }
@@ -35,6 +42,7 @@ body {
 }
 
 
-.main {
-  background-color: aliceblue;
+.content {
+  background-color: lightcoral;
+  height: 80vh;
 }

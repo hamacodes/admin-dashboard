@@ -133,6 +133,7 @@ body {
 /* Announcements section */
 .announcements {
   background-color: white;
+  max-width: 450px;
   display: grid;
   grid-template-rows: repeat(auto-fit, 1fr);
   border-radius: 10px;
@@ -142,6 +143,7 @@ body {
 /* Trending section */
 .trending {
   background-color: white;
+  max-width: 450px;
   display: grid;
   grid-template-rows: repeat(auto-fit, 1fr);
   border-radius: 10px;

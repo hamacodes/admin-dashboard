@@ -58,3 +58,30 @@ body {
 .cl-item{
   background-color: lightpink
 }
+
+.content-right {
+  background-color: lightgreen;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+}
+.announcements {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  margin: 20px;
+}
+.an-item{
+  background-color:bisque;
+}
+.trending {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+  margin: 20px;
+}
+.tr-item {
+  background-color: aquamarine;
+}

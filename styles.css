@@ -145,13 +145,21 @@ body {
 }
 /* Trending section */
 .trending {
-  background-color: blue;
+  background-color: aliceblue;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(4, 1fr);
   justify-content: center;
+  border-radius: 20px;
+  padding: 20px;
   gap: 10px;
 }
 .tr-item {
-  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-weight: bold;
+}
+.tr-item img {
+  border-radius: 50%;
 }

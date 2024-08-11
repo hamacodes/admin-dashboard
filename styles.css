@@ -92,7 +92,18 @@ body {
   align-items: center;
   justify-content: flex-start;
   gap: 20px;
-  margin: 0 20px;
+  margin: 0 40px;
+}
+.header-bot img {
+  border-radius: 50%;
+}
+.header-text {
+  margin-right: auto;
+}
+.header-bot button {
+  width: 6%;
+  height: 40px;
+  border-radius: 20px;
 }
 
 /* Content section (under header) */

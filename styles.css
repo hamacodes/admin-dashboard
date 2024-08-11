@@ -58,13 +58,14 @@ body {
 .cl-item{
   background-color: lightpink
 }
-
+/* Projects section */
 .content-right {
   background-color: lightgreen;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2, 1fr);
 }
+/* Announcements section */
 .announcements {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -75,6 +76,7 @@ body {
 .an-item{
   background-color:bisque;
 }
+/* Trending section */
 .trending {
   display: grid;
   grid-template-columns: repeat(1, 1fr);

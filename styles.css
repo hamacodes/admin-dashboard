@@ -34,6 +34,12 @@ body {
   height: 100px;
   fill: white;
 }
+/* Nav and utility sections */
+.nav, .util {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 .nav-items, .util-items {
   display: flex;
   align-items: center;

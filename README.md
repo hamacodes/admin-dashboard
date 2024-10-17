@@ -4,7 +4,7 @@
 This project showcases my ability to build a full dashboard design using CSS Grid for the majority of the layout work. The goal was to structure and style a dynamic dashboard with various sections, including a sidebar, header, and main content areas, using modern CSS techniques.
 
 ## Live Demo
-Check out the live demo here: [Hama's Admin Dashboard](https://hamacodes.github.io/odin-admin-dashboard/)
+Check out the live demo here: [Hama's Admin Dashboard](https://hamacodes.github.io/admin-dashboard/)
 
 ## Key Features
 - **Grid Layout:** The entire dashboard layout is structured using CSS Grid, allowing for clean and responsive design. Grid is used for the sidebar, header, and main content sections, with further nesting to manage child elements like navigation, user info, projects, and announcements.
